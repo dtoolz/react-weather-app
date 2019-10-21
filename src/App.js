@@ -13,6 +13,12 @@ class App extends React.Component {
        country : undefined,
        humidity : undefined,
        description : undefined,
+       longitude : undefined,
+       latitude : undefined,
+       timezone: undefined,
+       wind: undefined,
+       min_temp: undefined,
+       max_temp: undefined,
        error : undefined
     }
 
@@ -32,6 +38,12 @@ class App extends React.Component {
           country: data.sys.country,
           humidity: data.main.humidity,
           description: data.weather[0].description,
+          longitude: data.coord.lon,
+          latitude: data.coord.lat,
+          timezone: data.timezone,
+          wind: data.wind.speed,
+          min_temp: data.main.temp_min,
+          max_temp: data.main.temp_max,
           error: ""
         });
       } else {
@@ -41,6 +53,12 @@ class App extends React.Component {
           country: undefined,
           humidity: undefined,
           description: undefined,
+          longitude: undefined,
+          latitude: undefined,
+          timezone: undefined,
+          wind: undefined,
+          min_temp: undefined,
+          max_temp: undefined,
           error: "please input some values"
         });
       };
@@ -56,6 +74,12 @@ class App extends React.Component {
              country={this.state.country}
              humidity={this.state.humidity}
              description={this.state.description}
+             longitude={this.state.longitude}
+             latitude={this.state.latitude}
+             timezone={this.state.timezone}
+             wind={this.state.wind}
+             min_temp={this.state.min_temp}
+             max_temp={this.state.max_temp}
              error={this.state.error}
           />
         </div>
