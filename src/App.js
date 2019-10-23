@@ -66,22 +66,34 @@ class App extends React.Component {
     render() {
       return (
         <div>
-          <Titles />
-          <Form getWeather={this.getWeather} />
-          <Weather
-             temperature={this.state.temperature}
-             city={this.state.city}
-             country={this.state.country}
-             humidity={this.state.humidity}
-             description={this.state.description}
-             longitude={this.state.longitude}
-             latitude={this.state.latitude}
-             timezone={this.state.timezone}
-             wind={this.state.wind}
-             min_temp={this.state.min_temp}
-             max_temp={this.state.max_temp}
-             error={this.state.error}
-          />
+           <div className="wrapper">
+             <div className="main">
+               <div className="container">
+                 <div className="row">
+                   <div className="col-md-5 title-container">
+                      <Titles />
+                   </div>
+                   <div className="col-md-7 form-container">
+                        <Form getWeather={this.getWeather} />
+                        <Weather
+                           temperature={this.state.temperature}
+                           city={this.state.city}
+                           country={this.state.country}
+                           humidity={this.state.humidity}
+                           description={this.state.description}
+                           longitude={this.state.longitude}
+                           latitude={this.state.latitude}
+                           timezone={this.state.timezone}
+                           wind={this.state.wind}
+                           min_temp={this.state.min_temp}
+                           max_temp={this.state.max_temp}
+                           error={this.state.error}
+                        />
+                   </div>
+                 </div>
+               </div>
+             </div>
+           </div>
         </div>
 
       );
