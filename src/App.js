@@ -27,7 +27,7 @@ class App extends React.Component {
        const city = e.target.elements.city.value;
        const country = e.target.elements.country.value;
       const api_call = await 
-      fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${API_KEY}&units=metric`);
+      fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${API_KEY}&units=metric`);
       //arranging information in json format
       const data = await api_call.json();
       if( city && country ){

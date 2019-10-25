@@ -23,7 +23,7 @@ body {
 }
 
 .title-container {
-  height: 160vh;
+  height: 180vh;
   background: url("img/img1.jpg") center center no-repeat;
   background-size: cover;
   display: flex;
@@ -52,13 +52,13 @@ body {
 
 .form-container {
   background-color: #124616;
-  height: 160vh;
+  height: 180vh;
   padding-top: 100px;
   padding-left: 50px;
 }
 
 input[type="text"]{
-  background-color: rgb(197, 195, 195);
+  background-color: transparent;
   border: 0;
   border-bottom: solid 1px #5154f1;
   width: 60%;
@@ -70,6 +70,10 @@ input[type="text"]{
   margin-right: 20px;
   padding-left: 5px;
   font-size: 20px;
+}
+input::placeholder { 
+  color: white !important;
+  opacity: 1;
 }
 
 input[type="text"] { 
@@ -131,11 +135,15 @@ button:active {
 
 @media screen and (max-width: 768px) {
     .form-container {
-        height: 200vh;
+        height: 240vh;
       }
     
       .title-container {
         height: 90vh;
         padding-bottom: 50px;
+      }
+
+      input[type="text"]{
+        width: 90%;
       }
 }
