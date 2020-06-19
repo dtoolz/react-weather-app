@@ -1,6 +1,19 @@
 Live version of app available at https://dtoolz-weather.netlify.com .
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Screenshots of project is shown below : 
+
+  Weather report scrrenshot one
+![weather report screenshot of lagos](https://github.com/dtoolz/react-weather-app/blob/master/src/img/FireShot%20Capture%20004%20-%20React%20App%20-%20dtoolz-weather.netlify.com.png?raw=true)
+
+Weather report scrrenshot of london
+![weather report screenshot of london](https://github.com/dtoolz/react-weather-app/blob/master/src/img/FireShot%20Capture%20005%20-%20React%20App%20-%20dtoolz-weather.netlify.com.png?raw=true)
+
+Weather report scrrenshot of new york
+![weather report screenshot of new york](https://github.com/dtoolz/react-weather-app/blob/master/src/img/FireShot%20Capture%20006%20-%20React%20App%20-%20dtoolz-weather.netlify.com.png?raw=true)
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
