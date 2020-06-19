@@ -3,13 +3,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Screenshots of project is shown below : 
 
-  Weather report scrrenshot one
+  Weather report screenshot one
 ![weather report screenshot of lagos](https://github.com/dtoolz/react-weather-app/blob/master/src/img/FireShot%20Capture%20004%20-%20React%20App%20-%20dtoolz-weather.netlify.com.png?raw=true)
 
-Weather report scrrenshot of london
+Weather report screenshot of london
 ![weather report screenshot of london](https://github.com/dtoolz/react-weather-app/blob/master/src/img/FireShot%20Capture%20005%20-%20React%20App%20-%20dtoolz-weather.netlify.com.png?raw=true)
 
-Weather report scrrenshot of new york
+Weather report screenshot of new york
 ![weather report screenshot of new york](https://github.com/dtoolz/react-weather-app/blob/master/src/img/FireShot%20Capture%20006%20-%20React%20App%20-%20dtoolz-weather.netlify.com.png?raw=true)
 
 
